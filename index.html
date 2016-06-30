@@ -1,23 +1,97 @@
 ---
 layout: default
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<div class="timeline bg-grey5">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="title-flag wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;">
+					<h2>Engage</h2>							
+				</div>
+				<div class="agenda col-sm-6 col-sm-offset-6">
+				<p>Stay on top of the latest news, upcoming events, trends and analysis on Digital Transformation. Join the conversation and engage with global leaders today.</p>
+				</div>
+			</div>
+			<div class="col-md-12 t-6">
+				<ul class="events">								
+					<li class="event">
+						<div class="date wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;">
+						<div class="date-container"><strong class="days">5</strong><span class="month">July</span></div>
+						</div>
+						<a class="location col-sm-6" href="http://www.digitalbusinessday.de/" target="_blank">
+							<div class="flag wow fadeInUp animated" data-box-group="flag" style="height: 152px; visibility: visible; animation-name: fadeInUp;">
+								<div class="thumb" style="background-image:url(http://digital.softwareag.com/assets/img/innovation-day-bonn.jpg);"></div>
+								<div class="body">									
+									<h3>
+										<strong class="sm">Digital Business Day - Germany</strong>
+									</h3>
+									<p class="text-sm">See the latest Digital Transformation trends live in Bonn</p>
+								</div>
+							</div>
+						</a>
+					</li>			
+					<li class="event">
+						<div class="date wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;"><div class="date-container"><strong class="days">7</strong><span class="month">July</span></div>
+						</div>
+						<a class="location col-sm-6" href="http://software.ag/id_brazil/default.aspx" target="_blank">
+							<div class="flag wow fadeInUp animated" data-box-group="flag" style="height: 152px; visibility: visible; animation-name: fadeInUp;">
+								<div class="thumb" style="background-image:url(http://digital.softwareag.com/assets/img/innovation-day-sao-paulo.jpg);"></div>
+								<div class="body">									
+									<h3>
+										<strong class="sm">Innovation Day - Brazil</strong>
+									</h3>
+									<p class="text-sm">See the latest Digital Transformation trends live in São Paulo</p>
+								</div>
+							</div>
+						</a>
+					</li>			
+					<li class="event">
+						<div class="date wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;"><div class="date-container"><strong class="days">12</strong><span class="month">July</span></div>
+						</div>
+						<a class="location col-sm-6" href="http://www.software.ag/id_mexico/default.aspx" target="_blank">
+							<div class="flag wow fadeInUp animated" data-box-group="flag" style="height: 152px; visibility: visible; animation-name: fadeInUp;">
+								<div class="thumb" style="background-image:url(http://digital.softwareag.com/assets/img/innovation-day-mexico.jpg);"></div>
+								<div class="body">									
+									<h3>
+										<strong class="sm">Digital Business Day - Mexico</strong>
+									</h3>
+									<p class="text-sm">See the latest Digital Transformation trends live in Mexico City</p>
+								</div>
+							</div>
+						</a>
+					</li>
+					<li class="event">
+						<div class="date wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;"><div class="date-container"><strong class="days">19</strong><span class="month">July</span></div>
+						</div>
+						<a class="location col-sm-6" href="http://software.ag/dbd_us_west/default.aspx" target="_blank" se_prerender_url="complete">
+							<div class="flag wow fadeInUp animated" data-box-group="flag" style="height: 152px; visibility: visible; animation-name: fadeInUp;">
+								<div class="thumb" style="background-image:url(http://digital.softwareag.com/assets/img/innovation-day-san-francisco.jpg);"></div>
+								<div class="body">									
+									<h3>
+										<strong class="sm">Digital Business Day - USA</strong>
+									</h3>
+									<p class="text-sm">See the latest Digital Transformation trends live in San Francisco</p>
+								</div>
+							</div>
+						</a>
+					</li>		
+					<li class="event">
+						<div class="date wow zoomIn animated" style="visibility: visible; animation-name: zoomIn;"><div class="date-container"><strong class="days">3</strong><span class="month">October</span></div>
+						</div>
+						<a class="location col-sm-6" href="http://software.ag/dbd_us_east/default.aspx" target="_blank" se_prerender_url="complete">
+							<div class="flag wow fadeInUp animated" data-box-group="flag" style="height: 152px; visibility: visible; animation-name: fadeInUp;">
+								<div class="thumb" style="background-image:url(http://digital.softwareag.com/assets/img/innovation-day-new-york.jpg);"></div>
+								<div class="body">									
+									<h3>
+										<strong class="sm">Digital Business Day - USA</strong>
+									</h3>
+									<p class="text-sm">See the latest Digital Transformation trends live in New York</p>
+								</div>
+							</div>
+						</a>
+					</li>														
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>		
